@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+// import DesktopSubNav from "./Components/Dummy"
+import Navbar from './Components/Navbar';
+import NavbarAhead1 from './Components/NavbarAhead1';
+import AllRoutes from './Components/AllRoutes';
+import NavbarAhead2 from './Components/NavbarAhead2';
+import Mid from './Pages/Mid';
+import { Divider } from '@chakra-ui/react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Navbar/>
+   <NavbarAhead1/>
+   <NavbarAhead2/>
+   <Mid/>
+   <AllRoutes/>
     </div>
   );
 }
