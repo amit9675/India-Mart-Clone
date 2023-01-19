@@ -51,7 +51,7 @@ export default function NavbarAhead1() {
   return (
     <div
       style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1603814929877-d5d927322656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxjb25zdHJ1Y3Rpb258ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60")`,
+        backgroundImage: `url("https://hm.imimg.com/imhome_gifs/bg-img.jpg")`,
         height: "300px",
         display: "flex",
         justifyContent: "center",
@@ -81,12 +81,16 @@ export default function NavbarAhead1() {
         pointerEvents="none"
         children={<SearchIcon color="gray.300"/>}
         size="xs"
+
+     
         />
       <Input
         variant="outline"
         size="xs"
         width={"1010px"}
+        color="black"
         height="40px"
+        backgroundColor="white"
         placeholder={`Search Here`}
       />
           </InputGroup>
