@@ -41,16 +41,17 @@ const InsteadData = () => {
   return (
     <div
       style={{
-     
         width: "80%",
+     
         margin: "auto",
         display: "flex",
         justifyContent: "space-between",
         boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
         marginTop: "40px",
+        border:"2px solid black"
       }}
     >
-      <div style={{ flex: "3", marginTop: "80px", textAlign: "center" }}>
+      <div style={{ flex: "3", marginTop: "80px", textAlign: "center" ,height:"10%" }}>
         <Heading>
           We connect <br />
           Buyers & sellers
@@ -59,7 +60,14 @@ const InsteadData = () => {
           IndiaMART is India's largest online B2B marketplace, connecting buyers
           with suppliers.
         </p>
-        <div style={{ display: "flex",justifyContent:"space-around",marginTop:"20px" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            marginTop: "20px",
+            height:"80%",
+          }}
+        >
           <div>
             <CheckIcon />
             <h1>Trust</h1>
@@ -86,7 +94,7 @@ const InsteadData = () => {
 const GetMeData = () => {
   return (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
-      <div>
+      <div >
         <Heading as="h5" size="sm">
           Wood,Plywood,veneer & <br></br> Laminates
         </Heading>
