@@ -14,11 +14,12 @@ import Footer3 from "./Pages/Footer3";
 import Footer4 from "./Pages/Footer4";
 import EndFooter from "./Pages/EndFooter";
 import LargeWithAppLinksAndSocial from "./Pages/FinalFooter";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <div className="App" style={{ backgroundColor: "rgb(243,243,243)" }}>
-      <Navbar />
+   <Nav/>
       <NavbarAhead1 />
       <NavbarAhead2 />
       <Mid />
