@@ -5,4 +5,4 @@ IndiaMART InterMESH Ltd is an Indian e-commerce company that provides B2B and cu
 <h3>Product Section</h3>
 <img src="https://i.ibb.co/zHr9RDq/Whats-App-Image-2023-04-04-at-17-25-47.jpg"/>
 <h3>Products</h3>
-<img src="https://i.ibb.co/zHr9RDq/Whats-App-Image-2023-04-04-at-17-25-47.jpg"/>
+<img src="https://i.ibb.co/qrvP1D9/Whats-App-Image-2023-04-04-at-17-25-47.jpg"/>
